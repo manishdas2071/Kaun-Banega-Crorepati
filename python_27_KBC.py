@@ -24,7 +24,7 @@ Q16 = ['Who is the President of India?', 'A. Narendra Modi','B. Droupadi Murmu',
 
 kbc = 'Welcome to Kaun Banega Crorepati'
 print(kbc.center(50))
-playsound(r"D:\VS code\KBC audio\Intro.mp3")
+playsound(r"Audio/Intro.mp3")
 
 price = '₹ 1000'                                                #1st Question
 print(price.center(50))
@@ -187,7 +187,7 @@ for i in range(5):
 ans = input('Enter your choice: ')
 if ans == 'C':
     print('CONGRATULATIONS!! \nYou Won 1 Crore')
-    playsound(r"D:\VS code\KBC audio\Last Question.mp3")
+    playsound(r"Audio\Last Question.mp3")
 else :
     print('SORRY, YOU LOST!! \n The Won Amount is ₹ 50,00,000')
     exit()
@@ -199,7 +199,7 @@ for i in range(5):
 ans = input('Enter your choice: ')
 if ans == 'B':
     print('CONGRATULATIONS!! \nYou Won 7 Crore')
-    playsound(r"D:\VS code\KBC audio\Winner.mp3")
+    playsound(r"Audio\Winner.mp3")
     print('You are welcomed for the Next Season of Kaun Banega Crorepati')
 else :
     print('SORRY, IT WAS A WRONG ANSWER AND YOU NEED TO BE HAPPY WITH 1,00,00,000')
